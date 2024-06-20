@@ -694,6 +694,10 @@ $keys = array(
 		'type' => 'boolean',
 		'default' => false
 	),
+	'pgcache.prime.post.update.enabled' => array(
+		'type' => 'boolean',
+		'default' => false
+	),
 	'pgcache.rest' => array(
 		'type' => 'string',
 		'default' => ''
@@ -1179,7 +1183,7 @@ $keys = array(
 	),
 	'cdn.engine' => array(
 		'type' => 'string',
-		'default' => 'stackpath2'
+		'default' => ''
 	),
 	'cdn.uploads.enable' => array(
 		'type' => 'boolean',
